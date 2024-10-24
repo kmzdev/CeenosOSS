@@ -7,6 +7,6 @@ show(x)
 end
 else
 begin
-show("maior")
+show("bigger")
 show("ei")
 end
