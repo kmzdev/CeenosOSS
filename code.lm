@@ -1,0 +1,12 @@
+show('y')
+x = 1
+if -> x > 2 
+begin
+x ++ 1
+show(x)
+end
+else
+begin
+show("maior")
+show("ei")
+end
