@@ -1,0 +1,8 @@
+func lerArquivo(caminho)
+   begin
+       // Lógica para ler o arquivo no caminho especificado
+       return conteudoDoArquivo
+   end
+
+let -> conteudo = lerArquivo("caminho/do/arquivo.txt")
+show(conteudo)

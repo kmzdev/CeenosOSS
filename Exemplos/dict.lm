@@ -1,0 +1,2 @@
+let -> pessoa = {"nome": "Ana", "idade": 25, "cidade": "São Paulo"}
+show(pessoa["nome"] + " tem " + pessoa["idade"] + " anos e mora em " + pessoa["cidade"])

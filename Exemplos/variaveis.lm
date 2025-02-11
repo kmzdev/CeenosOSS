@@ -1,0 +1,6 @@
+from lmbib import *
+
+let -> fruta = "Maça"
+show(fruta)
+wait(2)
+show(1+1)

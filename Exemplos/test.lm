@@ -1,0 +1,36 @@
+let x = 2
+show('Hello World!')
+if x == 2 
+begin
+    show('x = 2')
+end
+
+elif x > 2 
+begin
+    show('x > 2')
+end
+
+else
+begin
+    show('x != 2')
+end
+input nome = ('Qual e o seu nome')
+if  nome == 'Joao'
+begin
+    show('Ola Joao')
+end
+else
+begin 
+    show('Voce nao e o Joao')
+end
+func nova_funcao()
+begin
+    show('hello')
+end
+until  x == 10
+begin
+    x++ 1
+    show(x)
+end
+wait(2) // wait 2 seconds
+import  minha_biblioteca

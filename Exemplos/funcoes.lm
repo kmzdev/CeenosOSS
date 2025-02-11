@@ -1,0 +1,6 @@
+func adicionar(a,b)
+   begin
+   //retornar a soma
+   return c = a + b
+   end
+adicionar(1,2)

@@ -1,0 +1,13 @@
+input idade = 'Digite sua idade:'
+if -> idade < 18
+begin
+   show("Você é menor de idade.")
+end
+elif -> idade >= 18 and idade < 65
+begin
+   show("Você é um adulto.")
+end
+else
+begin
+   show("Você é um idoso.")
+end

@@ -1,0 +1,12 @@
+let -> lista = [1, 3, 5, 7, 9]
+func somarLista(lista)
+   begin
+       let -> soma = 0
+       for -> item in lista
+       begin
+           soma = soma + item
+       end
+       return soma
+   end
+
+show(somarLista(lista))

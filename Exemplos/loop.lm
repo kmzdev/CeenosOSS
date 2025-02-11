@@ -1,0 +1,6 @@
+let x = 0
+until x == 10
+begin
+x ++ 1 
+show(x)
+end

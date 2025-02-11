@@ -1,0 +1,76 @@
+import os 
+import time
+import random as rm
+
+func -> wait(tim)
+begin
+time.sleep(tim)
+end
+
+func -> raz(n,indice)
+begin
+global raiz
+raiz = n ** float(1/indice)
+	
+return raiz
+end
+
+func -> run(file_name)
+begin
+os.startfile(file_name)
+exit()
+end
+	
+func -> clear_screen()
+begin
+if -> os.name == 'nt'
+begin 
+os.system('cls')
+end
+else
+begin
+os.system('clear')
+end
+end
+
+func -> read_archive(file)
+begin
+fl = open(file,'r+')
+global read_text
+read_text = fl.read()
+
+return read_text
+end   
+
+func -> clear_archive(file)
+begin
+with open(file,'r+') as fl
+begin
+fl.truncate(0)
+fl.close()
+end
+end
+func -> write(file,data)
+begin
+ with open(file,'r+') as fl
+begin
+fl.write(data)
+fl.close()
+end
+
+end
+
+func -> potc(num,exp)
+begin
+return num ** exp
+end
+
+func -> random()
+begin
+return rm.random()
+end
+
+func -> chosee(a,b)
+begin
+rm.choice(a,b)
+end
