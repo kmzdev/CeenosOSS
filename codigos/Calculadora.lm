@@ -1,0 +1,26 @@
+//Entrada de dados
+
+//valor de a
+input a = "Qual e o valor de a?:"
+
+//transformando a em valor inteiro
+a = int(a)
+
+//valor de b
+input b = "Qual e o valor de b?:"
+
+//transformando a em valor inteiro
+b = int(b)
+
+//Calculo
+
+func -> resultado(a,b)
+begin
+c = a + b
+show(c)
+end
+
+resultado(a,b)
+
+
+
